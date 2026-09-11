@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Registration Confirmed | Carpe Diem</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        CARPE<span>DIEM</span>
+    </a>
+
+</header>
+
+
+<main>
+
+<section class="success-page">
+
+    <div class="success-number">
+        ✓
+    </div>
+
+
+    <p class="eyebrow">
+        REGISTRATION COMPLETE
+    </p>
+
+
+    <h1>
+        YOU'RE<br>
+        <span>IN.</span>
+    </h1>
+
+
+    <p class="success-text">
+        Your school registration has been successfully submitted.
+    </p>
+
+
+    <div class="registration-id">
+
+        <small>REGISTRATION ID</small>
+
+        <strong id="registrationId"></strong>
+
+    </div>
+
+
+    <div class="success-actions">
+
+        <a
+            href="sports.html"
+            class="btn btn-outline"
+        >
+            VIEW SPORTS
+        </a>
+
+        <a
+            href="index.html"
+            class="btn btn-gold"
+        >
+            BACK TO HOME
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        CARPE<span>DIEM</span>
+    </div>
+
+    <p>Interschool Sports Competition</p>
+
+</footer>
+
+
+<script>
+
+const id =
+    localStorage.getItem("registrationId");
+
+document.getElementById("registrationId").textContent =
+    id || "CD-2026-XXXX";
+
+</script>
+
+
+</body>
+
+</html>
