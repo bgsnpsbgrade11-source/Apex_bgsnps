@@ -232,7 +232,12 @@ nav a.active {
     max-width: 850px;
 
 }
-
+.hero-image {
+    width: calc(100% + 16vw);
+    max-width: none;
+    margin-left: -8vw;
+    display: block;
+}
 
 .eyebrow {
 
