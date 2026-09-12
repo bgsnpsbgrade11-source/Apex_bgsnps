@@ -224,19 +224,16 @@ nav a.active {
 
 
 .hero-content {
-
     position: relative;
-
     z-index: 2;
-
-    max-width: 850px;
-
+    max-width: none;
+    width: 100%;
 }
 .hero-image {
-    width: calc(100% + 16vw);
+    width: 100vw;
     max-width: none;
-    margin-left: -8vw;
     display: block;
+    margin-left: -8vw;
 }
 
 .eyebrow {
