@@ -1756,3 +1756,19 @@ footer {
     }
 
 }
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+}
+
+.logo span {
+    font-size: 22px;
+    font-weight: 700;
+}
