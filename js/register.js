@@ -32,12 +32,12 @@ const sports = {
 
     "Table Tennis Singles": {
         fee: 500,
-        ages: ["U-11", "U-14", "U-17"]
+        ages: ["U-14", "U-17"]
     },
 
     "Table Tennis Doubles": {
         fee: 1000,
-        ages: ["U-11", "U-14", "U-17"]
+        ages: ["U-14", "U-17"]
     },
 
     "Volleyball": {
